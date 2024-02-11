@@ -1,7 +1,7 @@
 Dependencies for Project 'atk_f103', Target 'FreeRTOS': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xe.s)(0x5F57670F)(--cpu Cortex-M3 -g --apcs=interwork -ID:\MDK5.34\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
-F (..\..\User\main.c)(0x65C75F7A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers\ -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\FreeRTOS\include -I ..\..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM3-ID:\MDK5.34\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+F (..\..\User\main.c)(0x65C868A5)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers\ -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\FreeRTOS\include -I ..\..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM3-ID:\MDK5.34\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
 I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x65C745EA)
 I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5F5B8436)
 I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x65C75C4F)
@@ -189,7 +189,7 @@ I (..\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_hcd.h)(0x5F57677A)
 I (..\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5F57675F)
 I (..\..\User\stm32f1xx_it.h)(0x5FFEEE3B)
 I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x65C745EA)
-F (..\..\User\freertos_demo.c)(0x62DA7E99)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers\ -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\FreeRTOS\include -I ..\..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM3-ID:\MDK5.34\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\..\output\freertos_demo.o --omf_browse ..\..\output\freertos_demo.crf --depend ..\..\output\freertos_demo.d)
+F (..\..\User\freertos_demo.c)(0x65C87204)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers\ -I ..\..\User -I ..\..\Middlewares -I ..\..\Middlewares\FreeRTOS\include -I ..\..\Middlewares\FreeRTOS\portable\RVDS\ARM_CM3-ID:\MDK5.34\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\..\output\freertos_demo.o --omf_browse ..\..\output\freertos_demo.crf --depend ..\..\output\freertos_demo.d)
 I (..\..\User\freertos_demo.h)(0x6254F373)
 I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x61839F5C)
 I (D:\MDK5.34\ARM\ARMCC\include\stdio.h)(0x60252374)
@@ -254,6 +254,7 @@ I (..\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_mmc.h)(0x5F57675F)
 I (..\..\Drivers\./BSP/LED/led.h)(0x5FFEEE3B)
 I (..\..\Drivers\./BSP/LCD/lcd.h)(0x5FFEEE3B)
 I (D:\MDK5.34\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\..\Drivers\./BSP/KEY/key.h)(0x5F16C10F)
 I (..\..\Middlewares\FreeRTOS\include\FreeRTOS.h)(0x61C2EEAA)
 I (..\..\User\FreeRTOSConfig.h)(0x6246B558)
 I (..\..\Middlewares\FreeRTOS\include\projdefs.h)(0x61C2EEAA)

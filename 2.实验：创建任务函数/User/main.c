@@ -45,13 +45,14 @@ int main(void)
     key_init();                         /* 初始化按键 */
     my_mem_init(SRAMIN);                /* 初始化内部SRAM内存池 */
 
-    lcd_show_string(30,  50, 200, 16, 16, "STM32", RED);
-    lcd_show_string(30,  70, 200, 16, 16, "MALLOC TEST", RED);
-    lcd_show_string(30,  90, 200, 16, 16, "ATOM@ALIENTEK", RED);
-    lcd_show_string(30, 110, 200, 16, 16, "KEY0:Malloc KEY1:Free", RED);
-    lcd_show_string(30, 130, 200, 16, 16, "KEY_UP:Write ", RED);
-    lcd_show_string(30, 160, 200, 16, 16, "SRAMIN ", BLUE);
-    lcd_show_string(30, 176, 200, 16, 16, "SRAMIN   USED:", BLUE);
+//    lcd_show_string(30,  50, 200, 16, 16, "STM32", RED);
+//    lcd_show_string(30,  70, 200, 16, 16, "MALLOC TEST", RED);
+//    lcd_show_string(30,  90, 200, 16, 16, "ATOM@ALIENTEK", RED);
+//    lcd_show_string(30, 110, 200, 16, 16, "KEY0:Malloc KEY1:Free", RED);
+//    lcd_show_string(30, 130, 200, 16, 16, "KEY_UP:Write ", RED);
+//    lcd_show_string(30, 160, 200, 16, 16, "SRAMIN ", BLUE);
+//    lcd_show_string(30, 176, 200, 16, 16, "SRAMIN   USED:", BLUE);
+	
 		freertos_demo();
 
 }

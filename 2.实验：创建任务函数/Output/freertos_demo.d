@@ -64,6 +64,7 @@
 ..\..\output\freertos_demo.o: ..\..\Drivers\./BSP/LED/led.h
 ..\..\output\freertos_demo.o: ..\..\Drivers\./BSP/LCD/lcd.h
 ..\..\output\freertos_demo.o: D:\MDK5.34\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\freertos_demo.o: ..\..\Drivers\./BSP/KEY/key.h
 ..\..\output\freertos_demo.o: ..\..\Middlewares\FreeRTOS\include\FreeRTOS.h
 ..\..\output\freertos_demo.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\freertos_demo.o: ..\..\Middlewares\FreeRTOS\include\projdefs.h
